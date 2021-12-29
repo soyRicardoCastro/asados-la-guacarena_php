@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+.nav__input:checked + .nav__menu {
+	background: tomato;
+	display: block;
+}
+
+.nav__menu {
+	width: 100px;
+	height: 100px;
+	display: none;
+}
